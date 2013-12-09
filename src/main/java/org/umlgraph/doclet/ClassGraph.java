@@ -1220,6 +1220,7 @@ class ClassGraph {
 	else
 	    throw new RuntimeException("Unknown alignement type " + align);
 	
+	text = escape(text);
 	text = fontWrap(" " + text + " ", opt, font);
 	open = "<tr><td align=\"" + alignText + "\" balign=\"" + alignText + "\">";
 	w.print(open + text + close + linePostfix);
