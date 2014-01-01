@@ -113,9 +113,9 @@ public class Options implements Cloneable, OptionProvider {
      * more difficult to verify with XML tools.
      */
     /** Guillemot left (open) */
-    String guilOpen = "&#171;";		// &laquo; \u00ab
+    String guilOpen = "«";		// &laquo; \u00ab
     /** Guillemot right (close) */
-    String guilClose = "&#187;";	// &raquo; \u00bb
+    String guilClose = "»";	// &raquo; \u00bb
     boolean inferRelationships;
     boolean inferDependencies;
     boolean collapsibleDiagrams;

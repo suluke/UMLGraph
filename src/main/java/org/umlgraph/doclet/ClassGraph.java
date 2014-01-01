@@ -173,6 +173,14 @@ class ClassGraph {
 		    sb.replace(i, i + 1, "&gt;");
 		    i += "&gt;".length();
 		    break;
+		case '«':
+			sb.replace(i, i + 1, "&#171;");
+		    i += "&#171;".length();
+		    break;
+		case '»':
+			sb.replace(i, i + 1, "&#187;");
+		    i += "&#187;".length();
+		    break;
 		default:
 		    i++;
 		}
